@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add User - Attendance System</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { width: 80%; margin: auto; text-align: center; }
+        input, button { padding: 10px; margin: 5px; }
+        button { background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Add New User</h1>
+        <form action="/add" method="post">
+            <input type="text" name="username" placeholder="Enter username" required>
+            <button type="submit">Add User</button>
+        </form>
+    </div>
+</body>
+</html>
